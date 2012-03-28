@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreaterHeights.ISO8211", "GreaterHeights.ISO8211\GreaterHeights.ISO8211.csproj", "{0D1E9057-17A6-4B1F-BC28-1019B9BA8FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreaterHeights.ISO8211.Tests", "GreaterHeights.ISO8211.Tests\GreaterHeights.ISO8211.Tests.csproj", "{5D7BF9DF-717B-4464-8E32-4D8A0CDFAC25}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D1E9057-17A6-4B1F-BC28-1019B9BA8FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1E9057-17A6-4B1F-BC28-1019B9BA8FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1E9057-17A6-4B1F-BC28-1019B9BA8FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1E9057-17A6-4B1F-BC28-1019B9BA8FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7BF9DF-717B-4464-8E32-4D8A0CDFAC25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7BF9DF-717B-4464-8E32-4D8A0CDFAC25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7BF9DF-717B-4464-8E32-4D8A0CDFAC25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7BF9DF-717B-4464-8E32-4D8A0CDFAC25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
