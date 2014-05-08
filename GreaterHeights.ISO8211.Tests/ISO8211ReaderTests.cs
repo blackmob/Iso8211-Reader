@@ -1,11 +1,32 @@
-﻿using NUnit.Framework;
-using System.Diagnostics;
+﻿// ***********************************************************************
+// Assembly         : GreaterHeights.ISO8211.Tests
+// Author           : Ben Blackmore
+// Created          : 05-08-2014
+//
+// Last Modified By : Ben Blackmore
+// Last Modified On : 05-08-2014
+// ***********************************************************************
+// <copyright file="ISO8211ReaderTests.cs" company="Greater Heights Ltd">
+//     Copyright (c) Greater Heights Ltd. All rights reserved.
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
 
 namespace GreaterHeights.ISO8211.Tests
 {
+    using System.Diagnostics;
+
+    using NUnit.Framework;
+
+    /// <summary>
+    /// Class Iso8211ReaderTests.
+    /// </summary>
     [TestFixture]
     public class Iso8211ReaderTests 
     {
+        /// <summary>
+        /// Shoulds the open the catalog031 file.
+        /// </summary>
         [Test]
         public void ShouldOpenTheCatalog031File()
         {
